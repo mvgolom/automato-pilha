@@ -1,0 +1,12 @@
+a b #alfabeto entrada
+ A Z #alfabeto pilha
+e p s i l o n #caracter que representa o epsilon
+Z #simbolo inicial da pilha
+q0 q1 q2 q3 #conjunto de estados 
+q0 #inicial
+q3	#final
+q0 a Z q1 AZ 
+q1 a A q1 AA
+q1 b A q2 epsilon
+q2 b A q2 epsilon
+q2 epsilon Z q3 Z
